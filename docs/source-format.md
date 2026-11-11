@@ -1,0 +1,5 @@
+# 地图数组对象
+
+Zarr v2的二维数组，shape=3×5，chunks=2×3，边界chunk也存完整六个元素，超出shape的值不进入结果。g1为小端i2/C顺序/无压缩，g2为大端u2/F顺序/zlib，二维逻辑数组相同。original-array.json只是来源生成时的原数组。manifest固定不可变前缀及.zarray摘要；客户端入口是指定manifest的URL，metadata和chunk_prefix均按该URL解析。清单不含chunk摘要，解码完整长度是基本验证；输出来源记录必须保存实际下载摘要。禁止query或fragment出现在chunk_prefix，所有后续URL必须落在该前缀且同来源。
+
+缺失chunk按metadata的fill_value填充，错误状态不能补空。zlib必须恰好一条完整流，无尾随字节。NaN只允许f4并按NaN比较，不用JSON相等判断。数据文件可扩展更多shape、dtype和order，来源目录没有区域读取器或客户端缓存。资源上限由客户端配置，来源不会替客户端裁范围。

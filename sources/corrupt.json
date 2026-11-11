@@ -1,0 +1,123 @@
+{
+  "routes": [
+    {
+      "path": "/g1/.zarray",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g1/.zarray"
+        }
+      ]
+    },
+    {
+      "path": "/g1/0.0",
+      "responses": [
+        {
+          "status": 200,
+          "text": "bad"
+        }
+      ]
+    },
+    {
+      "path": "/g1/0.1",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g1/0.1"
+        }
+      ]
+    },
+    {
+      "path": "/g1/1.0",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g1/1.0"
+        }
+      ]
+    },
+    {
+      "path": "/g1/1.1",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g1/1.1"
+        }
+      ]
+    },
+    {
+      "path": "/g1/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g1-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/g2/.zarray",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g2/.zarray"
+        }
+      ]
+    },
+    {
+      "path": "/g2/0/0",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g2/0/0"
+        }
+      ]
+    },
+    {
+      "path": "/g2/0/1",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g2/0/1"
+        }
+      ]
+    },
+    {
+      "path": "/g2/1/0",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g2/1/0"
+        }
+      ]
+    },
+    {
+      "path": "/g2/1/1",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g2/1/1"
+        }
+      ]
+    },
+    {
+      "path": "/g2/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "g2-manifest.json"
+        }
+      ]
+    }
+  ]
+}

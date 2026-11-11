@@ -1,0 +1,1 @@
+{"zarr_format":2,"shape":[3,5],"chunks":[2,3],"dtype":">u2","compressor":{"id":"zlib","level":6},"fill_value":0,"order":"F","filters":null,"dimension_separator":"/"}
